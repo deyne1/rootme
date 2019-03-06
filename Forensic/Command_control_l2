@@ -1,0 +1,2 @@
+volatility -f ch2.dmp imageinfo
+volatility -f ch2.dmp --profile=Win7SP1x86 envars
