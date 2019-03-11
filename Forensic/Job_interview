@@ -1,0 +1,7 @@
+mkdir 123
+ewfmount image_forensic.e01 ./123
+cp ./123/ewf1 ./
+ewf1 extract
+git clone https://github.com/ANSSI-FR/bmc-tools.git
+cd bmc-tools
+./bmc-tools.py -s ../bcache24.bmc -d ./out -v -o -b
