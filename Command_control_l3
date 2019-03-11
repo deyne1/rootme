@@ -1,0 +1,3 @@
+volatility  -f ch2.dmp --profile=Win7SP1x86 pstree
+volatility  -f ch2.dmp --profile=Win7SP1x86 dlllist -p 2772
+
