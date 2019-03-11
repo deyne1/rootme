@@ -1,0 +1,4 @@
+volatility -f ch2.dmp --profile=Win7SP1x86 consoles
+volatility -f ch2.dmp --profile=Win7SP1x86 memdump -p 2168 -D ./out/
+strings ./out/2168.dmp > ./out/2168.txt
+grep tcprelay.exe ./out/2168.txt
