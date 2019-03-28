@@ -1,0 +1,5 @@
+var pass = unescape("unescape%28%22String.fromCharCode%2528104%252C68%252C117%252C102%252C106%252C100%252C107%252C105%252C49%252C53%252C54%2529%22%29");
+sed 's/%25/%/g' JS-obfiscation2| sed 's/%2C/,/g'|sed 's/%28/(/g'|sed 's/%29/)/g'|sed 's/%22/\x22/g'
+var pass = unescape("unescape("String.fromCharCode(104,68,117,102,106,100,107,105,49,53,54)")");
+charcode 2 text=hDufjdki156
+
