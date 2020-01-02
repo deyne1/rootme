@@ -1,0 +1,1 @@
+echo  -n "0C:B3:19:B9:4F:C6GT-S7390G" |sha1sum
