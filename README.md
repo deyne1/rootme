@@ -1,2 +1,2 @@
 # rootme
-little root-me writeup
+little rootme writeup
