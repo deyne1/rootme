@@ -1,0 +1,2 @@
+docker history --no-trunc rootme/docker_layer:latest
+openssl enc -d -aes-256-cbc -iter 10 -pass pass:$(cat pass.txt) -in flag.enc -out decrypted.txt
